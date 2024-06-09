@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Projet 1",
+        "description": "Description du projet 1",
+        "image": "https://picsum.photos/seed/picsum/300/200",
+        "link": "https://www.google.com",
+        "tech": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "name": "Projet 2",
+        "description": "Description du projet 2",
+        "image": "https://picsum.photos/seed/picsum/300/200",
+        "link": "https://www.google.com",
+        "tech": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+        "id": 3,
+        "name": "Projet 3",
+        "description": "Description du projet 3",
+        "image": "https://picsum.photos/seed/picsum/300/200",
+        "link": "https://www.google.com",
+        "tech": ["HTML", "CSS", "JavaScript", "Next.js"]
+    },
+    {
+        "id": 4,
+        "name": "Projet 4",
+        "description": "Description du projet 4",
+        "image": "https://picsum.photos/seed/picsum/300/200",
+        "link": "https://www.google.com",
+        "tech": ["HTML", "CSS", "JavaScript", "Tailwind"]
+    }
+]
