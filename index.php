@@ -29,14 +29,7 @@
         <!------------------ ABOUT SECTION ------------------>
         <?php include("src/components/Sections/about-section.html"); ?>
         <!------------------ PROJECTS SECTION ------------------>
-        <section id="projects">
-            <div class="section-title">Mes Projects</div>
-            <article class="projects-container">
-                <div>Bleu</div>
-                <div>Blanc</div>
-                <div>Rouge</div>
-            </article>
-        </section>
+        <?php include("src/components/Sections/project-section.php"); ?>
     </main>
     <script src="script.js"></script>
 </body>
