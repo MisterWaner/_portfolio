@@ -38,10 +38,13 @@ $data = readJSONFile($filename);
                 <div class="project-card-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate ex fugit est quisquam, ut veritatis eligendi iure expedita corrupti nobis aliquam rem adipisci eos omnis earum ipsam? Reiciendis molestias tempora blanditiis earum omnis delectus eveniet, harum molestiae perferendis eligendi nesciunt hic officiis ipsa! Obcaecati tenetur officia voluptatum laboriosam minus.
                     </p>
-                    <p class="project-card-tech">
-                        Technologies :
-                        <span><?= implode(', ', $project['tech']) ?></span>
-                    </p>
+                    <div class="project-card-tech">
+                        <ul class="project-card-tech-list">
+                            <?php foreach ($project['tech'] as $tech) : ?>
+                                <li class="project-card-tech-item"><?= $tech ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="project-card-footer">
